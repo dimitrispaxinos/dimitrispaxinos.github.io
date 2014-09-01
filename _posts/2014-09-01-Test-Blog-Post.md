@@ -1,5 +1,8 @@
 
-##Test Blog Title
+---
+layout: post
+title: Test Blog Title
+---
 
 
 [This](http://contra.gr) is just a test blog post...
