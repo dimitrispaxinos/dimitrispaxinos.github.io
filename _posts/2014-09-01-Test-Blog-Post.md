@@ -10,9 +10,9 @@ It's quite easy to learn how this works.
 ```csharp
 public class Contact
 {
-public string FirstName {get;set;}
-//this is a comment
-public string LastName {get;set;}
+	public string FirstName {get;set;}
+	//this is a comment
+	public string LastName {get;set;}
 }
 ```
 
