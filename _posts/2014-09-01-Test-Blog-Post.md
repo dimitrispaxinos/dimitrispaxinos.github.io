@@ -7,12 +7,14 @@ It's quite easy to learn how this works.
 
 *This is **C#** Code Sample:*
 
-    public class Contact
-    { 
-    	public string FirstName { get;set; }
-    		public string LastName { get;set; }
-    }
 
+```csharp
+public class Contact
+{ 
+public string FirstName { get;set; }
+public string LastName { get;set; }
+}
+```
 
 
 
