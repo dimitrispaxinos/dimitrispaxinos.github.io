@@ -10,5 +10,14 @@ It's quite easy to learn how this works.
     public class Contact
     { 
     	public string FirstName { get;set; }
-		public string LastName { get;set; }
+    		public string LastName { get;set; }
     }
+
+
+
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
