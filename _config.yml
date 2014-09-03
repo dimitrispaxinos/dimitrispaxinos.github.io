@@ -23,5 +23,6 @@ github:
   
 avatar: http://www.wpclipart.com/medical/symbols/medical_symbols_2/eye.png  
 
-pages_list:         
+pages_list:      
+  About: '/aboutme'   
   Archive: '/archive'
