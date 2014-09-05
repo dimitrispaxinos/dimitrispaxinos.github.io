@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Test Blog Post
-
 ---
+
+
 [This](http://contra.gr) is just a test blog post...
 
 > I am trying out some stuff.
