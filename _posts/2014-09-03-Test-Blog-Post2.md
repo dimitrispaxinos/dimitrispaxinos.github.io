@@ -1,8 +1,14 @@
 ---
 layout: post
 title: One Line Post
+category: Coding
+tags: jekyll github rss
+year: 2014
+month: 9
+day: 4
+published: true
+summary: A follow up post on how I built my blog
 ---
-
 
 
 [This](http://contra.gr) is just a test blog post...
