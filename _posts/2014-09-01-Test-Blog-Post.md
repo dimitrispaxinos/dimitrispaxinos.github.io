@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Test Blog Post
+tags:
+	- general
+	- testTag
 ---
 [This](http://contra.gr) is just a test blog post...
 
