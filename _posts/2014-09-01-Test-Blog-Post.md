@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Blog Post
+title: Test BLog Post
 ---
 
 
