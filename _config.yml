@@ -1,4 +1,5 @@
 # Dependencies
+auto: 			  true
 markdown:         redcarpet
 pygments:         true
 
