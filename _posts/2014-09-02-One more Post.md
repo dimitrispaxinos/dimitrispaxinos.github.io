@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: css testTag onemoreTag
 title: Introducing Poole2
 ---
 
