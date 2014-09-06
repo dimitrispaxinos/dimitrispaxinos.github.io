@@ -4,14 +4,14 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-# permalink:        pretty
+permalink:        pretty
 
 # Setup
 title:            Dimitris Paxinos
 tagline:          Under Construction
 # url:              http://getpoole.com
 # paginate:         1
-# baseurl:          /
+baseurl:          /
 # author:
   # name:           Mark Otto
   # url:            https://twitter.com/mdo
