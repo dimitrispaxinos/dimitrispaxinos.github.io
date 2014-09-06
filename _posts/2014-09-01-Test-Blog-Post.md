@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Test BLog Post
+tags: tag1 tag2 testtag
 ---
 
 

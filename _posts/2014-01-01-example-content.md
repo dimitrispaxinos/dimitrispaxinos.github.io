@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example content
+tags: tag1 tag3 testtag
 ---
 
 
