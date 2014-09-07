@@ -5,7 +5,11 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+ <i class="icon-tags"> Tags: 
+  </i> {% for tag in page.tags %} 
+  <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u>
+  </a>  {% if forloop.last != true %} {% endif %} {% endfor %}
+  {{ content }}  
 </div>
 
 <div class="related">

@@ -1,7 +1,8 @@
 # Dependencies
 # auto: 			  true
 markdown:         redcarpet
-pygments:         true
+#pygments:         true
+highlighter:        rouge
 
 # Permalinks
 permalink:        pretty
@@ -10,7 +11,7 @@ permalink:        pretty
 title:            Dimitris Paxinos
 tagline:          Under Construction
 # url:              http://getpoole.com
-# paginate:         1
+paginate:         1
 baseurl:          /
 # author:
   # name:           Mark Otto
@@ -24,6 +25,17 @@ baseurl:          /
   
 # avatar: http://www.wpclipart.com/medical/symbols/medical_symbols_2/eye.png  
 
+encoding: utf-8
+
 pages_list:      
   About: '/aboutme'   
   Archive: '/archive'
+  Tags: '/tags'
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
