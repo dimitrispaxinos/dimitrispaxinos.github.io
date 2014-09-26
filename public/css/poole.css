@@ -48,7 +48,10 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  */
+   font-family: 'Cuprum', sans-serif; 
+  /* font-family: 'Oxygen', sans-serif; */
+  /* font-family: 'Oswald', sans-serif; */
   font-size: 16px;
   line-height: 1.5;
 }
@@ -286,7 +289,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  max-width: 45rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -304,6 +307,7 @@ tbody tr:nth-child(odd) th {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  font-family: 'Orbitron', sans-serif;
 }
 .masthead-title {
   margin-top: 0;
@@ -312,7 +316,13 @@ tbody tr:nth-child(odd) th {
 }
 .masthead-title a {
   color: #505050;
+  text-decoration: none;
 }
+
+.masthead-title :hover {
+  color: #307EA9;
+}
+
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
@@ -330,7 +340,8 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 4em; 
+ /*  font-family: 'Oswald', sans-serif; */
 }
 
 /* Blog post or page title */
@@ -338,7 +349,13 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #303030;
+  text-decoration: none;
 }
+
+.post-title :hover {
+  color: #307EA9;
+}
+
 .page-title,
 .post-title {
   margin-top: 0;
