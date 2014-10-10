@@ -20,8 +20,9 @@ title: Home
             <li><a href="/tags/{{ tag }}" class="tag" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a></li>
             {% if forloop.last != true %} {% endif %} {% endfor %}
         </ul>
-        </br>
-        <a href="{{ post.url }}#disqus_thread">Comments</a>
+        </br>		
+	<a href="{{ post.url }}#disqus_thread">Comments</a>	
+	</br>
     </div>
     {% endfor %}
 </div>
