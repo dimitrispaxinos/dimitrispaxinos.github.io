@@ -208,3 +208,10 @@ table.archivetable tr, th, td {
   background-color: #fff;
   cursor: default;
 }
+
+inlinecode{
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  padding: .15em ;
+  color: #0a8;
+  font-size: 90%;
+}
