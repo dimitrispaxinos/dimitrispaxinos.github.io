@@ -5,7 +5,8 @@ markdown:         redcarpet
 highlighter:        rouge
 
 # Permalinks
-permalink:        /:year/:title.html
+#permalink:        pretty
+permalink:        /blog/:year/:month/:title.html
 
 # Setup
 title:            Dimitris Paxinos
@@ -28,9 +29,9 @@ baseurl:          /
 encoding: utf-8
 
 pages_list:      
-  About: '/aboutme'   
-  Archive: '/archive'
-  Tags: '/tags'
+  About: '/aboutme.html'   
+  Archive: '/archive.html'
+  Tags: '/tags.html'
 
 defaults:
   -
