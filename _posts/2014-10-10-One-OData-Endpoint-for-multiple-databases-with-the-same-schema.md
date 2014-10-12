@@ -1,13 +1,18 @@
 ---
 layout: post
-title: One OData Endpoint for multiple databases with the same schema
-tags: OData WebApi EntityFramework Unity Tutorial
+title: Web Api OData Endpoint for multiple databases with the same schema
+tags: 
+- OData 
+- Web Api 
+- Entity Framework 
+- Unity 
+- Tutorial
+description: This post describes the development of an Web Api OData Endpoint for multiple databases that share the same schema.
 ---
-
 
 ##Introduction
  
-In the .NET world, you can easily expose your database data using OData, Web Api and Entity Framework. There are many tutorials about this on [Microsoft's site](http://www.asp.net). Unfortunately, all the tutorials I found were exposing data from only one database. So, usually, you end up having an OData endpoint with a Url like this:
+In the .NET world, you can easily expose your database data using OData, Web Api and Entity Framework. There are many tutorials about this on [Microsoft's site](http://www.asp.net). Unfortunately, all the tutorials I have found online are exposing data from only one database. So, usually, you end up having an OData endpoint with a Url like this:
 
 *http://servername/OData/EntityName*
 
@@ -18,7 +23,7 @@ What I wanted to achieve was to have one endpoint for more databases with the sa
 
 ##Implementation
 
-If you like to go through the code of this example, you can find it on [**Github**](https://github.com/dimitrispaxinos/OData.MultipleDatabaseEndpoint).  Our requirement is to create an endpoint in order to expose the products of a business. This business has two stores, one in Hamburg and one in Berlin with two different identical databases and we would like to be able to query the products of both databases using the same endpoint:
+If you like to go through the code of this example, you can find it on [**Github**](https://github.com/dimitrispaxinos/OData.MultipleDatabaseEndpoint).  Our requirement is to create an endpoint in order to expose the products of a company. This company has two stores, one in Hamburg and one in Berlin with two different identical databases and we would like to be able to query the products of both databases using the same endpoint:
 
 *http://servername/OData/hamburg/Products*
 
