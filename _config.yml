@@ -9,9 +9,13 @@ highlighter:        rouge
 permalink:        /blog/:year/:month/:title
 
 # Setup
+
+
+name:             Dimitris Paxinos
 title:            Dimitris Paxinos
 tagline:          Under Construction
-# url:              http://getpoole.com
+description:      Programming Stuff 
+url:              http://www.dpaxinos.com
 paginate:         2
 baseurl:          /
 # author:
@@ -25,13 +29,14 @@ baseurl:          /
   # repo:           https://github.com/poole/poole
   
 # avatar: http://www.wpclipart.com/medical/symbols/medical_symbols_2/eye.png  
-
+include: [_assets]
 encoding: utf-8
 
 pages_list:      
   About: '/aboutme.html'   
   Archive: '/archive.html'
   Tags: '/tags.html'
+  Rss: '/feed.xml'
 
 defaults:
   -
