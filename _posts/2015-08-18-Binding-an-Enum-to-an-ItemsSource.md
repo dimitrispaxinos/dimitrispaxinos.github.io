@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Binding an Enum to an ItemsSource
+title: Binding an ItemsSource to an Enum
 tags:  wpf xaml combobox tutorial 
 ---
 
