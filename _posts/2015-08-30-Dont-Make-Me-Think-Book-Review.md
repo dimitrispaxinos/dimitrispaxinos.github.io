@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book Review - Don't make me think
-tags: books bookreviews usability UI webdesign opinions 
+tags: books bookreview usability UI webdesign opinions 
 ---
 ![Cover](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/DontMakeMeThinkCover.jpg)
 
