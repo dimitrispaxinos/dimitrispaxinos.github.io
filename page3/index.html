@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<link href='http://www.dpaxinos.com/feed.xml' rel='alternate' type='application/atom+xml'>
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Cuprum:400,400italic|Maven+Pro' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Lekton|Cabin|Yanone+Kaffeesatz:300|Oxygen|Fjalla+One|Cuprum:400,400italic|Maven+Pro|Arapey|Homenaje|Orbitron:900' rel='stylesheet' type='text/css'>
+  <!--   <link href='http://fonts.googleapis.com/css?family=Abel|PT+Sans+Narrow:400,700|Quicksand|Lobster|Tangerine|Fjalla+One|Inconsolata:400,700|Yanone+Kaffeesatz|Pacifico|Oswald:300|Orbitron:900' rel='stylesheet' type='text/css'> -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Home &middot; Dimitris Paxinos
+    
+  </title> 
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/site.css">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png"> 
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54447083-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <!-- <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'dimitrispaxinosblog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script> -->
+<body>
+    <div class="container content">
+        <div class="masthead">
+            <h3 class="masthead-title">
+                <a href="/" title="Home">Dimitris Paxinos</a>
+                 <!-- <small>.NET and other programming stories</small>  -->
+                <ul class="menu">
+                    
+                    &nbsp;&nbsp;&nbsp;
+                    <li><a href="/aboutme.html">About</a></li>
+                    
+                    &nbsp;&nbsp;&nbsp;
+                    <li><a href="/archive.html">Archive</a></li>
+                    
+                    &nbsp;&nbsp;&nbsp;
+                    <li><a href="/tags.html">Tags</a></li>
+                    
+                    &nbsp;&nbsp;&nbsp;
+                    <li><a href="/feed.xml">Rss</a></li>
+                    
+                    <ul>
+            </h3>
+			<h3 class="masthead-title">			
+			<small>.NET and other programming stories</small> 
+			</h3>
+        </div>
+
+        <div class="posts">
+    
+	
+    <div class="post">
+        <h1 class="post-title">
+            <a href="/blog/2015/04/MVVM-command-disabling-scope-for-asynchronous-operations">
+                MVVM Command disabling scope for asynchronous operations
+            </a>
+        </h1>
+        <span class="post-date">April 26, 2015</span>
+        <h3>Introduction</h3>
+
+<p>One of the must-have features of all modern applications is constant UI responsiveness. The user interface should never freeze and stay responsive no matter what service calls or other background operations are being executed. So, when there is an operation running in the background, the user should only be able to take certain actions that do not interfere with the running operation.  Two common approaches to tackling this problem would be:</p>
+
+<ol>
+<li>Blocking the UI completely while displaying a loading animation with a message. </li>
+<li>Disabling only the actions (buttons for example) that the user is not allowed to take while the operation is in progress. </li>
+</ol>
+
+<p>In this post, we will go through a possible implementation for the second case. You can also find a full working sample of the implementation that follows on <strong><a href="https://github.com/dimitrispaxinos/WPFDemos/tree/master/AsyncDisablingScopeSample">Github</a></strong>. We will start by defining the disabling scope of an operation. </p>
+
+<h4>Disabling Scope</h4>
+
+<p>Let&#39;s suppose that we have a contacts list (like the one you can see below) in which we can add a new or update/remove the selected contact (in red). When someone adds a contact by clicking the add button, a time consuming background task is executed (service call). While this task is being executed, the Update and Remove buttons should be disabled. Therefore, these two buttons would be the <strong>disabling scope</strong> of the Add Button action.</p>
+
+<p><img src="https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/mvvmAsyncCommandScope_OriginalFormWithScope.jpg" alt="Disabling Scope"></p>
+
+<h3>Implementation</h3>
+
+<p>If you are familiar with the MVVM pattern, then you have definitely already made use of Commands and the <code>ICommand</code> Interface. There are various implementations of this interface. A popular one, suitable for asynchronous operations is the <a href="https://gist.github.com/dimitrispaxinos/f051d67a287bb34947a5">RelayCommandAsync</a>.</p>
+
+<p>The constructor of this implementation looks like this:</p>
+
+<script src="https://gist.github.com/dimitrispaxinos/cb0912bd4c132e0e9fca.js"></script>
+
+<h4>The Initial Approach</h4>
+
+<p>We can define the Command Handler and set the conditions under which the Command should be enabled.
+An initial approach could look like this:</p>
+
+<script src="https://gist.github.com/dimitrispaxinos/68fd37a522ab0b39f613.js"></script>
+
+<p>The <code>RemoveCommand</code> can execute when the selected contact is not null and the <code>AddCommand</code> is not executing. The <code>AddCommandHandler</code> changes accordingly the boolean <code>IsAddCommandExecuting</code>  which enables or disables the <code>RemoveCommand</code> .</p>
+
+<p>The ViewModel condition <code>SelectedContact!= null</code> is a responsibility of the Command itself. The same could happen with the Disabling scope as well though. When looking at the <code>AddCommand</code> declaration, you cannot directly see the disabling scope of the Command. </p>
+
+<h4>One step further</h4>
+
+<p>What if we introduced a new <code>IDisableable</code>  interface, a new <code>DisablingScope</code> class and finally an <code>IDisableableCommand</code> interface:</p>
+
+<script src="https://gist.github.com/dimitrispaxinos/4a5a27b7bcbd9d2edfa8.js"></script>
+
+<p>After these last changes, the <code>IsAddCommandExecuting</code> is not necessary anymore and the <code>AddCommandHandler</code> would now look like this: </p>
+
+<script src="https://gist.github.com/dimitrispaxinos/ef2f232e281910042318.js"></script>
+
+<h4>Polishing up</h4>
+
+<p>Now, we can directly see which buttons belong to the disabling scope of the Command by looking at the Command Handler. What if we could improve this a little bit more and make it more clear. We could perhaps skip the <code>using</code> part every time a handler is called. What if we encapsulated this functionality in the <code>RelayCommandAsync</code> class? Then, we have the following <code>IDisableableCommand</code> implementation:</p>
+
+<script src="https://gist.github.com/dimitrispaxinos/e3a9ed7d9560b2a8a837.js"></script>
+
+<p>After these last changes, the<code>AddCommand</code> declaration would be:</p>
+
+<script src="https://gist.github.com/dimitrispaxinos/edc847c6d03238d08db7.js"></script>
+
+<p>As you can see, it becomes absolutely clear which Commands are being disabled while the <code>AddCommand</code> is executing and all that without any affecting the <code>AddCommandHandler</code>.</p>
+
+        </br>
+
+        <ul class="tags">
+            
+            <li><a href="/tags/MVVM" class="tag" title="View posts tagged with &quot;MVVM&quot;">MVVM</a></li>
+              
+            <li><a href="/tags/C#" class="tag" title="View posts tagged with &quot;C#&quot;">C#</a></li>
+              
+            <li><a href="/tags/WPF" class="tag" title="View posts tagged with &quot;WPF&quot;">WPF</a></li>
+              
+            <li><a href="/tags/async" class="tag" title="View posts tagged with &quot;async&quot;">async</a></li>
+              
+            <li><a href="/tags/Command" class="tag" title="View posts tagged with &quot;Command&quot;">Command</a></li>
+             
+        </ul>
+        </br>		
+	<a href="/blog/2015/04/MVVM-command-disabling-scope-for-asynchronous-operations/#disqus_thread">Comments</a>	
+	</br>
+    </div>
+	
+    
+	
+    <div class="post">
+        <h1 class="post-title">
+            <a href="/blog/2015/04/An-animated-WPF-flowchart">
+                An animated WPF flowchart
+            </a>
+        </h1>
+        <span class="post-date">April 12, 2015</span>
+        <h3>Introduction</h3>
+
+<p>There was recently a need to create an animated flowchart in order to depict the transition between the states of a workflow. This post presents the main points of the implementation. If you prefer to directly dive into the code,  you can find the complete implementation with a working sample on <a href="https://github.com/dimitrispaxinos/WPFDemos/tree/master/FlowChartDemo"><strong>Github</strong></a>. The sample includes an animated flowchart for a blog post workflow like the one you can see below.
+<img src="https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/flowChartPostPic.gif" alt=""></p>
+
+<h3>Implementation</h3>
+
+<p>The goal was to create a reusable component and therefore, the complete functionality is encapsulated in one user control, <code>FlowChartControl</code>, which has three dependency properties: </p>
+
+<ul>
+<li> An <code>AvailableStatuses</code> dependency property of type <em>Type</em> which is an enum and contains all the available states of the workflow (You could also easily convert this to an <code>IEnumerable&lt;string&gt;</code> for example).</li>
+<li> A <code>CurrentStatus</code> dependency property of type <em>Object</em> which represents the current status of the workflow.</li>
+<li>  An <code>Animate</code> dependency property of type <em>Bool</em> which is a flag that indicates whether the chart should animate or not.</li>
+</ul>
+
+<script src="https://gist.github.com/dimitrispaxinos/930979b71b7be156bab2.js"></script>
+
+<p>The <code>FlowChartControl</code> uses two subcontrols that represent the two geometric shapes available, <code>FlowChartCircle</code> and <code>FlowChartLine</code>. These controls include some triggers for defining the necessary color according to the state they are in and a <code>Content</code> dependency property for setting the state name. The code of these two controls is pretty straight forward and I will not get into the details of the implementation.</p>
+
+<p>Let us focus on some interesting points of the FlowChartControl class instead.</p>
+
+<script src="https://gist.github.com/dimitrispaxinos/2753638b211bccdcf6a3.js"></script>
+
+<h4>PropertyChangedCallback</h4>
+
+<p>All the action in this control resides in <code>CurrentStatusChangedCallBack()</code>  which is called every time the <code>CurrentStatus</code> dependency property is changed.</p>
+
+<p>This method calls <code>CreateChart()</code>  which draws the flowchart, a StackPanel with horizontal orientation which we add the <code>FlowChartCircle</code> and <code>FlowChartLine</code> controls to.  </p>
+
+<h4>Animation</h4>
+
+<p>If the <code>Animate</code> dependency property is set to false, the opacity of the StackPanel is set to one and the complete flowchart becomes visible straight away. </p>
+
+<p>If set to true, the <code>CreateStoryBoard()</code> is called. This method sets the opacity of the flowchart to zero, iterates the StackPanel&#39;s children list and gradually increases the opacity from zero to one producing the desired animation. </p>
+
+        </br>
+
+        <ul class="tags">
+            
+            <li><a href="/tags/WPF" class="tag" title="View posts tagged with &quot;WPF&quot;">WPF</a></li>
+              
+            <li><a href="/tags/XAML" class="tag" title="View posts tagged with &quot;XAML&quot;">XAML</a></li>
+              
+            <li><a href="/tags/flowchart" class="tag" title="View posts tagged with &quot;flowchart&quot;">flowchart</a></li>
+              
+            <li><a href="/tags/animation" class="tag" title="View posts tagged with &quot;animation&quot;">animation</a></li>
+             
+        </ul>
+        </br>		
+	<a href="/blog/2015/04/An-animated-WPF-flowchart/#disqus_thread">Comments</a>	
+	</br>
+    </div>
+	
+    
+</div>
+
+<div>
+    <ul class="pager">
+		
+        
+        <li>
+            <a href="/page4">&larr; Older</a>
+        </li>
+        
+        
+        
+        <li>
+            <a href="/page2">Newer &rarr;</a>
+        </li>
+        
+        
+		 
+    </ul>
+</div>
+
+
+        <div class="footer">
+            <p>
+                &copy; Dimitris Paxinos 2015. All rights reserved.
+            </p>
+        </div>
+    </div>
+	<script id="dsq-count-scr" src="//dimitrispaxinosblog.disqus.com/count.js" async></script>
+</body>
+</html>
