@@ -1,0 +1,47 @@
+# Dependencies
+# auto: 			  true
+markdown:         redcarpet
+#pygments:         true
+highlighter:        rouge
+
+# Permalinks
+#permalink:        pretty
+permalink:        /blog/:year/:month/:title
+
+# Setup
+
+
+name:             Dimitris Paxinos
+title:            Dimitris Paxinos
+tagline:          .NET and other programming stories
+description:      Programming Stuff 
+url:              http://www.dpaxinos.com
+paginate:         2
+baseurl:          /
+# author:
+  # name:           Mark Otto
+  # url:            https://twitter.com/mdo
+  # email:          markdotto@gmail.com
+
+# Custom vars
+# version:          1.0.0
+# github:
+  # repo:           https://github.com/poole/poole
+  
+# avatar: http://www.wpclipart.com/medical/symbols/medical_symbols_2/eye.png  
+include: [_assets]
+encoding: utf-8
+
+pages_list:      
+  About: '/aboutme.html'   
+  Archive: '/archive.html'
+  Tags: '/tags.html'
+  Rss: '/feed.xml'
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
