@@ -2,7 +2,7 @@
 # auto: 			  true
 markdown:         redcarpet
 #pygments:         true
-highlighter:        pygments
+highlighter:        rouge
 
 # Permalinks
 #permalink:        pretty
