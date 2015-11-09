@@ -94,3 +94,5 @@ and also highlighted in red within Seq:
 
 ###Summing up Part 1
 In this first part, we went through the basics of using Serilog and Seq. The goal was to get you quickly up and running so that you can try it out yourself.  In Part 2, we will go through the contextual logging capabilities of Serilog, always in conjunction with Seq.
+
+Continue with [Part2](http://www.dpaxinos.com/blog/2015/11/Centralized-and-Structured-Logging-With-Serilog-and-Seq-Part2/). 
