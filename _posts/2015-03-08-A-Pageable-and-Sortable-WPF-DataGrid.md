@@ -29,7 +29,7 @@ The solution can be divided into two parts. We will start with Paging and contin
 
 Although we could have encapsulated the ViewModel paging and sorting functionality in one class, we are going to use two classes, one for paging and another one (which inherits from the paging class) for the sorting so that the implementation is a bit more clear.
 
-### Paging 
+###  Paging 
 
 As said earlier, we are going to implement the functionality using only the ViewModel. We will create a new `PageableCollection<T>` class which implements `INotifyPropertyChanged`, encapsulates  all the paging logic and exposes an `ObservableCollection<T>`  property, `CurrentPageItems` for the DataGrid's ItemsSource to bind to.
 
@@ -57,7 +57,7 @@ You can see the most important properties and methods in the above table. Althou
 <script src="https://gist.github.com/dimitrispaxinos/5decda1d12a2de89b3cf.js"></script>
 
 
-### Sorting
+###  Sorting
 
 The problem that has to be tackled is the fact that the DataGrid can only sort its ItemsSource. In our case, this only includes the items of the current page. Therefore, **sorting has to be delegated from the DataGrid to the complete items list.** 
 

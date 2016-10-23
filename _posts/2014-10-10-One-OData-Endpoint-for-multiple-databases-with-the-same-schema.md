@@ -37,7 +37,7 @@ We will focus on and go through the three most critical points of the implementa
 - Handling the provided Url, extracting the store location and routing it accordingly.
 - Unity and Object Lifetime 
 
-###Connection String
+### Connection String
 Our Entity Framework Context class looks like this:
 
 ```csharp
@@ -112,7 +112,7 @@ We can of course adjust the methods according to the way we set and retrieve the
 
 
 
-###Routing
+### Routing
 We saw earlier that our goal is to have a Url that looks like this:
 
 *http://servername/OData/**DatabaseName**/EntityName*
@@ -164,7 +164,7 @@ Now that we created our custom path handler, we have to register it when declari
 
 As you can see, we use Unity to resolve our instance of <inlinecode>CustomDataPathHandler</inlinecode> because we need an <inlinecode>IConnectionStringSetter</inlinecode> object to be injected into it.
 
-###Unity
+### Unity
 
 The last point to note is that we need to have the same object of <inlinecode>IConnectionStringSetter</inlinecode> and <inlinecode>IConnectionStringProvider</inlinecode> used by our handler and then passed to our controller. To achieve this, we register the same instance for these both interfaces in the <inlinecode>RegisterComponents</inlinecode> method of the the static <inlinecode>UnityConfig</inlinecode> class:
 

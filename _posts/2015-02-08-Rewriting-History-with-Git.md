@@ -23,10 +23,10 @@ Well, with Git, all the above is actually possible. Git has been around for a wh
 
 ---
 
-### A Git Workflow in an agile environment
+###  A Git Workflow in an agile environment
 Before proceeding to these cool Git features, let's talk about a possible Git workflow first. On agile software development projects, work is organized in user stories which define the features to be developed. Since branching in Git is very easy and cheap, one approach would be to have one master/dev branch and create further branches for every user story/feature. This has the benefit of each feature being separately developed without interfering with any others. When the feature is ready, it gets integrated into the main branch.
 
-###Modify your last commit with Git amend
+### Modify your last commit with Git amend
 
 I do not know about you but this keeps happening to me quite often; realizing, shortly after committing, that there is something I would like to change in my commit. With Git, all we have to do is make our changes and just type:
 
@@ -35,12 +35,12 @@ This way, we include the new changes in our most recent commit while keeping the
 
     git commit --amend -m "New commit message"
 
-###Squashing your commits with interactive rebase
+### Squashing your commits with interactive rebase
 Generally, being able to commit any intermediate changes made before completing a task is very useful, especially when trying different approaches in order to solve a problem. This can also be done using a CVCS, but the project history ends up including many small or meaningless commits. 
 
 This can be easily solved with Git and its *interactive rebase*  feature which gives us the opportunity to reorganize the existing commits by squashing different consequent commits into a single one. This results in having a neat project history, with most of our changes grouped together. Such an approach would also allow for much easier code reviews since the code is organized in logical units-commits.  
 
-####Interactive Rebase Example
+####  Interactive Rebase Example
 Let's go through a simple example. Imagine having a branch with four commits. In our example, we would like to squash the fourth into the third commit.
 
 ![Squash](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/GitSquash1.png)
@@ -66,7 +66,7 @@ After replacing the message of the third commit (the fourth one will be included
 ![Squash](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/GitSquash5.png)
 
 
-###Rebase instead of merge
+### Rebase instead of merge
 
 Imagine creating a new branch in order to start working on a new feature according to the Git workflow we talked about earlier. While working on your secondary branch, there are some changes made on the master branch by other members of our team.
 
@@ -82,7 +82,7 @@ But what if we could directly transfer our neat commits (that we could also clea
 
 This option can contribute to keeping a very clean project history while retaining all steps towards developing your new feature. 
 
-####Rebase Example
+####  Rebase Example
 
 Let's now have a look at an example to make it more clear. We will continue working on the example we started a while ago for showing the interactive rebase feature. We were working on the master branch and now, we will create one more branch for a feature 
 
