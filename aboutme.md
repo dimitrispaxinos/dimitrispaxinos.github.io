@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-My name is Dimitris Paxinos, I am from Greece and I have been a professional software developer for the last 6 years. I currently live and work in Hamburg, Germany.
+My name is Dimitris Paxinos, I am from Greece and I have been a professional software developer for the last 6 years. 
 
 My focus is on building Line-of-Business applications. I enjoy both front and back-end development and these days, I mainly develop using C# and technologies such as WPF, ASP.NET MVC, Web Api, Entity Framework. 
 
