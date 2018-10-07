@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-  {{site.baseurl}} test
     {% if page.title == "home" %}
       {{ site.title }} &middot; {{ site.tagline }}
     {% else %}
@@ -17,14 +16,14 @@
     {% endif %}
   </title> 
   <!-- CSS -->
-  <link rel="stylesheet" href="http://www.dpaxinos.com/public/css/poole.css">
-  <link rel="stylesheet" href="http://www.dpaxinos.com/public/css/syntax.css">
-  <link rel="stylesheet" href="http://www.dpaxinos.com/public/css/site.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/site.css">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.dpaxinos.com/public/apple-touch-icon-precomposed.png"> 
-  <link rel="shortcut icon" href="http://www.dpaxinos.com/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png"> 
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.dpaxinos.com/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}atom.xml">
 </head>
