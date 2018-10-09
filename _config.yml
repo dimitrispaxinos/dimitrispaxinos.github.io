@@ -10,7 +10,7 @@ tagline:          .net and other programming stories
 description:      programming stuff 
 url:              http://www.dpaxinos.com
 paginate:         2
-baseurl:          /
+baseurl:          
 
 # Build settings
 markdown: kramdown
