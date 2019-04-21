@@ -1,1 +1,25 @@
-test
+{
+	"SearchCriteria": [{
+			"MinPrice": null,
+			"MaxPrice": 450.0,
+			"Keywords": ["Oneplus", "6T"]
+		}, {
+			"MinPrice": 5.0,
+			"MaxPrice": 550.0,
+			"Keywords": ["Mate", "20", "Pro"]
+		}, {
+			"MinPrice": 5.0,
+			"MaxPrice": 780.0,
+			"Keywords": ["P30", "Pro"]
+		}, {
+			"MinPrice": 5.0,
+			"MaxPrice": 500.0,
+			"Keywords": ["Huawei"]
+		}, {
+			"MinPrice": 5.0,
+			"MaxPrice": 180.0,
+			"Keywords": ["Honor", "8X"]
+		}
+	],
+	"RefreshInterval": 60
+}
