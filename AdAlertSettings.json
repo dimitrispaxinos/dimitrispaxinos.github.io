@@ -12,7 +12,7 @@
 		"MaxPrice": 770.0,
 		"Keywords": ["P30", "Pro"]
 	}, {
-		"MinPrice": 5.0,
+		"MinPrice": 2.0,
 		"MaxPrice": 180.0,
 		"Keywords": ["Honor", "8X"]
 	}],
