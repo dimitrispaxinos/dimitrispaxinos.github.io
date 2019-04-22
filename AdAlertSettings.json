@@ -9,6 +9,10 @@
 		"Keywords": ["Mate", "20", "Pro"]
 	}, {
 		"MinPrice": 5.0,
+		"MaxPrice": 500.0,
+		"Keywords": ["Huawei"]
+	}, {
+		"MinPrice": 5.0,
 		"MaxPrice": 770.0,
 		"Keywords": ["P30", "Pro"]
 	}, {
