@@ -1,0 +1,44 @@
+{
+	"Users": [{
+			"Email": "dpaxinos@gmail.com",
+			"Alerts": [{
+					"Id": "3719eaab-877e-4651-90b0-33a0b6109a6c",
+					"MinPrice": null,
+					"MaxPrice": 450.0,
+					"Keywords": ["Oneplus", "6T"],
+					"IsActive": true,
+					"DateCreated": "2019-04-26T18:53:00.835552+03:00"
+				}, {
+					"Id": "f7c7db1a-3f87-46f2-9260-9802dfc0df54",
+					"MinPrice": 5.0,
+					"MaxPrice": 550.0,
+					"Keywords": ["Mate", "20", "Pro"],
+					"IsActive": true,
+					"DateCreated": "2019-04-26T18:53:00.8388243+03:00"
+				}, {
+					"Id": "2e557472-10e4-4a41-b741-1a1ddbc0a626",
+					"MinPrice": 395.0,
+					"MaxPrice": 401.0,
+					"Keywords": ["P20", "Pro"],
+					"IsActive": true,
+					"DateCreated": "2019-04-26T18:53:00.8389194+03:00"
+				}, {
+					"Id": "af8f9fd7-4adc-4dda-be64-7f043111d203",
+					"MinPrice": 5.0,
+					"MaxPrice": 800.0,
+					"Keywords": ["Huawei"],
+					"IsActive": true,
+					"DateCreated": "2019-04-26T18:53:00.8389226+03:00"
+				}, {
+					"Id": "f93512d8-0163-48d5-bef9-f561218d9030",
+					"MinPrice": 195.0,
+					"MaxPrice": 205.0,
+					"Keywords": ["Honor", "8X"],
+					"IsActive": true,
+					"DateCreated": "2019-04-26T18:53:00.8389218+03:00"
+				}
+			]
+		}
+	],
+	"RefreshInterval": 60
+}
