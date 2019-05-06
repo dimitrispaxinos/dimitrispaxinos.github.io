@@ -1,7 +1,7 @@
 {
 	"SearchCriteria": [{
 		"MinPrice": 5,
-		"MaxPrice": 410.0,
+		"MaxPrice": 411.0,
 		"Keywords": ["Oneplus", "6T"]
 	}, {
 		"MinPrice": 5.0,
