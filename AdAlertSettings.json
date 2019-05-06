@@ -5,6 +5,14 @@
 		"Keywords": ["Oneplus", "6T"]
 	}, {
 		"MinPrice": 5.0,
+		"MaxPrice": 661.0,
+		"Keywords": ["S10", "+"]
+	},  {
+		"MinPrice": 5.0,
+		"MaxPrice": 661.0,
+		"Keywords": ["S10", "plus"]
+	}, {
+		"MinPrice": 5.0,
 		"MaxPrice": 510.0,
 		"Keywords": ["Mate", "20", "Pro"]
 	}, {
