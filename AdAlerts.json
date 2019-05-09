@@ -1,8 +1,8 @@
 [{
 	"name": "Oneplus",
-	"minPrice": 5.0,
-    "maxPrice": 411.0,
-    "isActive": true,
+	"minPrice": 6.0,
+        "maxPrice": 411.0,
+        "isActive": true,
 	"keywords": ["Oneplus", "6T"]
 }, {
 	"id": "id",
