@@ -13,7 +13,7 @@
 		"Keywords": ["S10", "plus"]
 	}, {
 		"MinPrice": 5.0,
-		"MaxPrice": 510.0,
+		"MaxPrice": 481.0,
 		"Keywords": ["Mate", "20", "Pro"]
 	}, {
 		"MinPrice": 5.0,
@@ -26,7 +26,7 @@
 	}, {
 		"MinPrice": 2.0,
 		"MaxPrice": 181.0,
-		"Keywords": ["Honor", "8X"]
+		"Keywords": ["Honor", "8", "X"]
 	}],
 	"RefreshInterval": 300
 }
