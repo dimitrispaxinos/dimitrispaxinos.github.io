@@ -13,15 +13,15 @@
 		"Keywords": ["S10", "plus"]
 	}, {
 		"MinPrice": 5.0,
-		"MaxPrice": 481.0,
+		"MaxPrice": 471.0,
 		"Keywords": ["Mate", "20", "Pro"]
 	}, {
 		"MinPrice": 5.0,
-		"MaxPrice": 770.0,
+		"MaxPrice": 701.0,
 		"Keywords": ["P30", "Pro"]
 	}, {
 		"MinPrice": 5.0,
-		"MaxPrice": 350.0,
+		"MaxPrice": 322.0,
 		"Keywords": ["P20", "Pro"]
 	}, {
 		"MinPrice": 2.0,
