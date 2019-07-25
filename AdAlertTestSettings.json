@@ -1,6 +1,6 @@
 {
-  "isActive": true,
+  "isActive": false,
   "maxAlerts": 4,
   "bannedVersions": "test1,test2",
-  "message": "This is a test message"
+  "message": "Please contact the admin for the new version"
 }
