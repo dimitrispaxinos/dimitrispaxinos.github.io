@@ -1,6 +1,6 @@
 {
   "isActive": true,
   "maxAlerts": 4,
-  "bannedVersions": "test1,test2",
+  "bannedVersions": "",
   "message": "Please contact the admin for the new version"
 }
