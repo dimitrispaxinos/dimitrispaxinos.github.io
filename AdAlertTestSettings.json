@@ -1,6 +1,6 @@
 {
   "isActive": true,
   "maxAlerts": 4,
-  "bannedVersions": "0.1",
-  "message": "Please contact dpaxinos@gmail.com!"
+  "bannedVersions": "",
+  "message": "Please contact the administrator!"
 }
