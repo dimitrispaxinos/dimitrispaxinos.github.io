@@ -1,6 +1,6 @@
 {
   "isActive": true,
-  "maxAlerts": 2,
+  "maxAlerts": 4,
   "bannedVersions": "",
   "message": "Please contact the administrator!"
 }
