@@ -1,6 +1,6 @@
 {
   "isActive": true,
-  "isGoogleSignInActive": false,
+  "isGoogleSignInActive": true,
   "maxAlerts": 4,
   "bannedVersions": "",
   "message": "Please contact the administrator!"
