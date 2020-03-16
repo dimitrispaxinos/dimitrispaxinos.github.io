@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to migrate a local Mongodb database to the cloud for free
+title: How to migrate a local MongoDB database to the cloud for free
 tags: mongodb mongo azure cloud migration
 ---
 
