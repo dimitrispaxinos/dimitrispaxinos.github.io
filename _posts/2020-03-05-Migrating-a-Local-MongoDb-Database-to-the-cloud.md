@@ -34,7 +34,7 @@ In order to copy your data from the old database:
 
 ![](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/MongoDbMigration/MongoShell.jpg)
 
-![](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/MongoDbMigration/ConnectionString.JPG))
+![](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/MongoDbMigration/ConnectionString.JPG)
 
 - We now return to MongoDB Compass and connect to the cloud database, but, before doing so, **we have to whitelist our IP or disable IP filtering completely.** 
  
