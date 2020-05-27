@@ -24,7 +24,7 @@ There are six available/allowed reasons:
 
 and the SMS structure should be like this: 
 
-						_X [space] Name [space] Surname [space] Address_
+_X [space] Name [space] Surname [space] Address_
 where X represents the number that corresponds to one of the above options.
 
 Easy right? Sure... if you are [millennial](https://en.wikipedia.org/wiki/Millennials) or even younger. It turns out that what is easy for you could be really hard for others, especially older ones like your mother or grandparents. 
