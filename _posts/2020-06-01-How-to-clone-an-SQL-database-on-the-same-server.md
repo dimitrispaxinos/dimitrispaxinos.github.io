@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: How to clone an sql database on the same server
