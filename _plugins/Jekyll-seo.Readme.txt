@@ -1,1 +1,0 @@
-ruby jekyll-seo.rb -k "odata" -p ..\_site\blog\2014\10\Web-Api-OData-Endpoint-for-multiple-databases-with-the-same-schema\index.html

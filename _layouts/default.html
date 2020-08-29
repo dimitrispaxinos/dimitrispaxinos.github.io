@@ -1,36 +1,26 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<link href='http://www.dpaxinos.com/feed.xml' rel='alternate' type='application/atom+xml'>
 
-  {% include head.html %}
-  {% include googleanalytics.html %}
-  <!-- {% include disquscommentcount.html %} -->
-<body>
-    <div class="container content">
-        <div class="masthead">
-            <h3 class="masthead-title">
-                <a href="/" title="Home">{{ site.title }}</a>
-                 <!-- <small>{{ site.tagline }}</small>  -->
-                <ul class="menu">
-                    {% for page in site.pages_list %}
-                    &nbsp;&nbsp;&nbsp;
-                    <li><a href="{{ page[1]  }}">{{ page[0] }}</a></li>
-                    {% endfor %}
-                    <ul>
-            </h3>
-			<h3 class="masthead-title">			
-			<small>{{ site.tagline }}</small> 
-			</h3>
-        </div>
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
 
-        {{ content }}
+<html lang="en" class="h-100">
 
-        <div class="footer">
-            <p>
-                &copy; Dimitris Paxinos {{ site.time | date: '%Y' }}. All rights reserved.
-            </p>
-        </div>
-    </div>
-	<script id="dsq-count-scr" src="//dimitrispaxinosblog.disqus.com/count.js" async></script>
+{% include head.html %}
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  {% include navbar.html %}
+  {{ content }}
+  </main>
+
+  {% include footer.html %}
+  {% include analytics.html %}
+  {% include scripts.html %}
+
 </body>
+
 </html>
