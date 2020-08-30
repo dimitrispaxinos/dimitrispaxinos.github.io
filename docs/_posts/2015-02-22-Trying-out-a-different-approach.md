@@ -5,7 +5,6 @@ tags:
 - hackathon
 - hamburg
 - businesshackweekend
-description: fsdfsd
 ---
 
 ### The Occasion

@@ -1,12 +1,7 @@
 ---
 layout: post
 title: Web Api OData Endpoint for multiple databases with the same schema
-tags: 
-- OData 
-- Web Api 
-- Entity Framework 
-- Unity 
-- Tutorial
+tags: OData Web Api EntityFramework Unity Tutorial
 description: This post describes the development of an Web Api OData Endpoint for multiple databases that share the same schema.
 ---
 

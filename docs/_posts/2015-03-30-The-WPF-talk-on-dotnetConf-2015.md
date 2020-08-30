@@ -1,11 +1,8 @@
 ---
 layout: post
 title: The WPF talk on dotnetConf 2015
-tags: 
-- WPF
-- .NET
-- dotnetConf2015
-description: fsdfsd
+tags: WPF .NET dotnetConf2015
+description: Summary of main points about WPF, as presented during the last dotnetConf.
 ---
 
 Following the recent posts on the [WPF Team blog](http://blogs.msdn.com/b/wpf/) after a long time of inactivity,  Microsoft continued its efforts to show that WPF development remains active by including  a [“WPF in 4.6 and beyond”](http://channel9.msdn.com/Events/dotnetConf/2015/WPF-in-46-and-beyond) talk on the [dotnetConf](http://www.dotnetconf.net/) 2015 that took place last week. This two day virtual conference included 19 talks in total which can be found on [Channel 9](http://channel9.msdn.com/Events/dotnetConf/2015).

@@ -8,7 +8,6 @@ tags:
 - Rebase
 - Merge
 - Squash
-description: fsdfsd
 ---
 How many times have you wished you could…
 

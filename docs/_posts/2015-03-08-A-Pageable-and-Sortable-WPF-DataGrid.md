@@ -7,7 +7,6 @@ tags:
 - Tutorial
 - Paging
 - Sorting
-description: fsdfsd
 ---
 
 ## Introduction

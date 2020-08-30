@@ -2,7 +2,6 @@
 layout: post
 title: Binding an ItemsSource to an Enum
 tags:  wpf xaml combobox tutorial 
-description: fsdfsd
 ---
 
 This rather quick post is about enabling an `Enum` to be set as the `ItemsSource` of a ComboBox, ListBox etc. You can find the sample code on [**Github**](https://github.com/dimitrispaxinos/WPFDemos/tree/master/EnumToItemSourceBindingSample). 

@@ -3,10 +3,7 @@ layout: post
 title: Building a mobile app for the COVID-19 lockdown using Flutter  
 tags: mobile app flutter coronovirus 
 description: This post is about a mobile app I developed called 13033 using Google's Flutter for simplyfying the process of registering your movement when leaving your house during the COVID-19 lockdown in Greece.
-
-
 ---
-
 ###  TL;DR
 This post is about a mobile app I developed called 13033 using Google's Flutter for simplyfying the process of registering your movement (by sending the required SMS to 13033) when leaving your house during the COVID-19 lockdown in Greece. The app has already **more than 6.5K downloads** (as of April 23) and can be found on [**Play Store**](https://play.google.com/store/apps/details?id=metakinisi.app).
   

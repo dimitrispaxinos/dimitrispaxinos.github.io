@@ -2,7 +2,6 @@
 layout: post
 title: Book Review - Don't make me think
 tags: books bookreview usability UI webdesign opinions 
-description: fsdfsd
 ---
 ![Cover](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/DontMakeMeThinkCover.jpg)
 

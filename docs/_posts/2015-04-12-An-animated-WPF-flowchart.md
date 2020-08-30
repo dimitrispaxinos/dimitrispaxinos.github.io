@@ -2,7 +2,6 @@
 layout: post
 title: An animated WPF flowchart
 tags: WPF XAML flowchart animation
-description: fsdfsd
 ---
 
 

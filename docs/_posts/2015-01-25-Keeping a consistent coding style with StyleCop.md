@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Keeping a consistent coding style with StyleCop
-tags: StyleCop CodingStyle
-tags: 
-- StyleCop 
-- Coding Style
-- Visual Studio
-description: fsdfsd
+tags: StyleCop CodingStyle VisualStudio
+description: A post about the use of StyleCop to ensure that your coding style remains consistent.
 ---
 
 ### Coding Style and its Importance

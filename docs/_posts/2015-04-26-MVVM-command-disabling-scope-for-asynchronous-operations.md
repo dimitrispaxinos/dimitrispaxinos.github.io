@@ -2,7 +2,6 @@
 layout: post
 title: MVVM Command disabling scope for asynchronous operations
 tags: MVVM C# WPF async Command
-description: fsdfsd
 ---
 
 

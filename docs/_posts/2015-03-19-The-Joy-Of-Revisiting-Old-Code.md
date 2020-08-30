@@ -4,7 +4,6 @@ title: The joy of revisiting old code
 tags: 
 - opinions
 - coding
-description: fsdfsd
 ---
 
 **What happens to you when you look at old code of yours?** When I say old, I do not mean code you wrote last week. I am talking about code you wrote a while ago, code that belongs to a project you worked on and might currently be in production for example. That kind of code! Let's talk about such a case, let's talk about the moment you go back to that piece of code to either fix a bug or see how you solved a problem you are facing in your current project. 
