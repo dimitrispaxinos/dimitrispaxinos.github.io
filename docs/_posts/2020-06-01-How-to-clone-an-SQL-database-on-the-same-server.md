@@ -1,8 +1,7 @@
 ---
 title: How to clone an sql database on the same server
 tags: sql mssql database
-style: fill
-color: info
+
 description: Cloning an sql database on the same server
 ---
 Although this should be straight forward, it took me some time to find an easy way to do it. Finally found it on [Stack Overflow](https://stackoverflow.com/a/22409447/2111052), therefore, I am documenting it here for (my) future reference.

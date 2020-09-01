@@ -2,6 +2,8 @@
 layout: post
 title: Building a mobile app for the COVID-19 lockdown using Flutter  
 tags: mobile app flutter coronovirus 
+style: fill 
+color: primary
 description: This post is about a mobile app I developed called 13033 using Google's Flutter for simplyfying the process of registering your movement when leaving your house during the COVID-19 lockdown in Greece.
 ---
 ###  TL;DR

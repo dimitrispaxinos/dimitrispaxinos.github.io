@@ -1,8 +1,9 @@
 ### Site Settings ###
 title               : Dimitris Paxinos
 description         : >-
-                      I solve business problems with code. 
+                      Hi, I am Dimitris. I like building stuff and solving business problems using code.
                       Tech | Startups | FinTech
+descriptionSecondLine: this is my second line 
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
