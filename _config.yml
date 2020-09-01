@@ -1,9 +1,8 @@
 ### Site Settings ###
 title               : Dimitris Paxinos
 description         : >-
-                      Hi, I am Dimitris. I like building stuff and solving business problems using code.
-                      Tech | Startups | FinTech
-descriptionSecondLine: this is my second line 
+                      Hi, I am Dimitris. I build stuff and solve business problems using code.                      
+descriptionSecondLine: Tech | Startups | FinTech
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -59,7 +58,7 @@ collections:
 
 
 ### Disqus ###
-disqus: your-short-name-disqus                          # Your website Shortname on disqus
+disqus: dimitrispaxinosblog                         # Your website Shortname on disqus
 
 
 ### Analytics ###
@@ -85,7 +84,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: true                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
