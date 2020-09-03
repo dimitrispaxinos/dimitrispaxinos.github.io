@@ -65,7 +65,7 @@ disqus: dimitrispaxinosblog                         # Your website Shortname on 
 analytics:
   enabled: false                                        # Set true to enable analytics
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: UA-54447083-1
 
 
 ### Defaults for collections ###
