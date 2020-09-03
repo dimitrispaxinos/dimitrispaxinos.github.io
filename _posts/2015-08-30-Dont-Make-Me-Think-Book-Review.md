@@ -2,6 +2,7 @@
 layout: post
 title: Book Review - Don't make me think
 tags: books bookreview usability UI webdesign opinions 
+description: An easy-to-read book with a wide target audience covering the core aspects of web usability, describing the complete process of usability testing and providing stimulation for further reading.
 ---
 ![Cover](https://raw.githubusercontent.com/dimitrispaxinos/dimitrispaxinos.github.io/master/_assets/images/DontMakeMeThinkCover.jpg)
 
