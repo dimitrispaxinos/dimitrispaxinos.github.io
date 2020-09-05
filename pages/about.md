@@ -9,11 +9,13 @@ weight: 1
 <br>
 
 Hi, I am **Dimitris** :wave:, I love tech and I use it to solve real business problems. 
-With more than 10 years of experience in coding, I consider myself a [product minded](https://blog.pragmaticengineer.com/the-product-minded-engineer/) software developer since I care both about my code and the final product. 
+With more than 10 years of experience in coding, I consider myself a 
+[product minded](https://blog.pragmaticengineer.com/the-product-minded-engineer/) software developer since caring for both my code and the final product. 
 
-I am currently working full-time as an IT Auditor at the Central Bank of Greece auditing and supervising the IT functions of financial institutions in both Greece and the EU. I am also involved in the FinTech scene as a member 
+I am currently working full-time as an IT Auditor at the Central Bank of Greece auditing and supervising the IT functions of financial institutions in both Greece and the EU. 
+I am also involved in the FinTech scene as a founding member 
 of the Bank’s [FinTech Innovation Hub](https://www.bankofgreece.gr/en/main-tasks/supervision/fintech-innovation-hub) 
-helping startups and other FinTech players regarding regulatory issues and queries. 
+helping mostly startups regarding regulatory issues and queries. 
 
 In parallel with my day job, I build things as a freelance developer. [13033](https://play.google.com/store/apps/details?id=metakinisi.app&hl=en), an Android app I built, helped more than 6.5k people in Greece during the COVID-19 lockdown and was featured on the [Greek press](https://www.thetoc.gr/koinwnia/article/koronoios-13033---i-dorean-efarmogi-pou-stelnei-ta-sms-metakinisis-me-3-klik/). 
 You can have a look at some of my other projects in the [Projects](https://www.dpaxinos.com/projects/) section. 
