@@ -2,8 +2,6 @@
 layout: post
 title: Soft skills matter
 tags:  softskills career opinions 
-style: fill 
-color: secondary
 ---
 Normal people go out, normal people meet new people.  
 I am (trying to be) normal too, so I go out and meet new people as well.  
