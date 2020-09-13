@@ -1,6 +1,6 @@
 ---
 title: Atomic Habits - Summary and Notes
-tags: book booksummary booknotes  self-improvement
+tags: book atomichabits booksummary booknotes  self-improvement
 description: Although this should be straight forward, it took me some time to find an easy way to do it. Finally found it on Stack Overflow, therefore, I am documenting it here for (my) future reference.
 ---
 
