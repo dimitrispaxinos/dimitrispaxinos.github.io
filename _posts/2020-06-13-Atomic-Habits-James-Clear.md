@@ -1,7 +1,7 @@
 ---
 title: Atomic Habits - Summary and Notes
 tags: book atomichabits booksummary booknotes  self-improvement
-description: Although this should be straight forward, it took me some time to find an easy way to do it. Finally found it on Stack Overflow, therefore, I am documenting it here for (my) future reference.
+description: I read a lot of self-help books. In order to make the most of them and possibly apply some of their recommendations/guidance, you have to take some notes for future reference. Starting from this book, I will do that in public in case these notes prove useful for someone else as well. 
 ---
 
 ![Cover](https://github.com/dimitrispaxinos/dimitrispaxinos.github.io/blob/master/_assets/images/AtomicHabits_Cover.png?raw=true)
