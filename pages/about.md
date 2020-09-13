@@ -10,9 +10,9 @@ weight: 4
 
 Hi, I am **Dimitris** :wave:, I love tech and I use it to solve real business problems. 
 With more than 10 years of experience in coding, I consider myself a 
-[product minded](https://blog.pragmaticengineer.com/the-product-minded-engineer/) software developer since caring for both my code and the final product. 
+[product minded](https://blog.pragmaticengineer.com/the-product-minded-engineer/) software developer caring for both my code and the final product. 
 
-I am currently working full-time as an IT Auditor at the Central Bank of Greece auditing and supervising the IT functions of financial institutions in both Greece and the EU. 
+I am currently working full-time as an IT Auditor at the Central Bank of Greece auditing and supervising the IT functions of financial institutions in both Greece and across the EU. 
 I am also involved in the FinTech scene as a founding member 
 of the Bank’s [FinTech Innovation Hub](https://www.bankofgreece.gr/en/main-tasks/supervision/fintech-innovation-hub) 
 helping mostly startups regarding regulatory issues and queries. 
