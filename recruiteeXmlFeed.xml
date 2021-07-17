@@ -1,62 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jobs>
-
-
-<job>
-  <reference><![CDATA[offer-1av1r:52813]]></reference>
-  <company><![CDATA[[JB] English Media Agency]]></company>
-  <company_id><![CDATA[28877]]></company_id>
-  <title><![CDATA[Web Developer]]></title>
-  <description_requirements><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
-<p><br />RESPONSIBILITIES</p>
-<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul><br /><br /><p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
-
-<br />]]></description_requirements>
-  <description><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
-<p><br />RESPONSIBILITIES</p>
-<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul>]]></description>
-  <requirements><![CDATA[<p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
-
-<br />]]></requirements>
-  <city><![CDATA[New York]]></city>
-  <state><![CDATA[NY]]></state>
-  <country><![CDATA[US]]></country>
-  <postal_code><![CDATA[10001]]></postal_code>
-  <remote>true</remote>
-  <education><![CDATA[high school coursework]]></education>
-  <experience><![CDATA[mid level]]></experience>
-  <contract_type><![CDATA[full-time]]></contract_type>
-  <category><![CDATA[information technology]]></category>
-  <min_hours><![CDATA[25]]></min_hours>
-  <max_hours><![CDATA[35]]></max_hours>
-  <url><![CDATA[https://jbenglishmediaagency.s.recruitee.com/o/web-developer?source=WerkZoeken.nl]]></url>
-  <apply_url><![CDATA[https://jbenglishmediaagency.s.recruitee.com/o/web-developer/c/new?source=WerkZoeken.nl]]></apply_url>
-  <posted><![CDATA[2021-04-22T13:06:22-00:00]]></posted>
-  <updated><![CDATA[2021-04-22T13:07:01-00:00]]></updated>
-  <translations>
-    <primary_lang_code><![CDATA[en]]></primary_lang_code>
-    <title>
-      <en><![CDATA[Web Developer]]></en>
-    </title>
-    <description_requirements>
-      <en><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
-<p><br />RESPONSIBILITIES</p>
-<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul><br /><br /><p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
-
-<br />]]></en>
-    </description_requirements>
-    <description>
-      <en><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
-<p><br />RESPONSIBILITIES</p>
-<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul>]]></en>
-    </description>
-    <requirements>
-      <en><![CDATA[<p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
-
-<br />]]></en>
-    </requirements>
-  </translations>
-</job>
 <job>
   <reference><![CDATA[offer-p1vfr:52816]]></reference>
   <company><![CDATA[[JB] International Pharmacy]]></company>
@@ -171,4 +114,59 @@
   </translations>
 </job>
 
+<job>
+  <reference><![CDATA[offer-1av1r:52813]]></reference>
+  <company><![CDATA[[JB] English Media Agency]]></company>
+  <company_id><![CDATA[28877]]></company_id>
+  <title><![CDATA[Web Developer]]></title>
+  <description_requirements><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
+<p><br />RESPONSIBILITIES</p>
+<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul><br /><br /><p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
+
+<br />]]></description_requirements>
+  <description><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
+<p><br />RESPONSIBILITIES</p>
+<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul>]]></description>
+  <requirements><![CDATA[<p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
+
+<br />]]></requirements>
+  <city><![CDATA[New York]]></city>
+  <state><![CDATA[NY]]></state>
+  <country><![CDATA[US]]></country>
+  <postal_code><![CDATA[10001]]></postal_code>
+  <remote>true</remote>
+  <education><![CDATA[high school coursework]]></education>
+  <experience><![CDATA[mid level]]></experience>
+  <contract_type><![CDATA[full-time]]></contract_type>
+  <category><![CDATA[information technology]]></category>
+  <min_hours><![CDATA[25]]></min_hours>
+  <max_hours><![CDATA[35]]></max_hours>
+  <url><![CDATA[https://jbenglishmediaagency.s.recruitee.com/o/web-developer?source=WerkZoeken.nl]]></url>
+  <apply_url><![CDATA[https://jbenglishmediaagency.s.recruitee.com/o/web-developer/c/new?source=WerkZoeken.nl]]></apply_url>
+  <posted><![CDATA[2021-04-22T13:06:22-00:00]]></posted>
+  <updated><![CDATA[2021-04-22T13:07:01-00:00]]></updated>
+  <translations>
+    <primary_lang_code><![CDATA[en]]></primary_lang_code>
+    <title>
+      <en><![CDATA[Web Developer]]></en>
+    </title>
+    <description_requirements>
+      <en><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
+<p><br />RESPONSIBILITIES</p>
+<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul><br /><br /><p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
+
+<br />]]></en>
+    </description_requirements>
+    <description>
+      <en><![CDATA[<p>We are building a team of entrepreneurial and experienced software development experts with a demonstrated passion for DevOps culture. You will work with our UI/UX designs to bridge the gap between mock-up and technical implementation, taking an active role on both sides to determine the application's look, feel, and functionality. As a foundational member of our growing startup, you'll get to leverage your knowledge of software, processes and procedures to own the creation of custom solutions and systems.</p>
+<p><br />RESPONSIBILITIES</p>
+<ul><li>Implementing new, game-changing software features for MD Ally</li><li>Enhancing and ensuring the technical feasibility of UI/UX designs</li><li>Optimizing application for maximum speed and scalability</li><li>Ensuring high quality graphic standards and brand consistency</li><li>Assuring that all user input is validated before submission to back-end</li><li>Providing ongoing maintenance, support, and enhancements for existing systems</li><li>Collaborating cross-functionally with business users and other engineers</li><li>Providing recommendations for continuous improvement</li></ul>]]></en>
+    </description>
+    <requirements>
+      <en><![CDATA[<p>REQUIREMENTS</p><ul><li>Advanced skills with markup languages, CSS, and Javascript</li><li>Advanced understanding of cross-browser compatibility issues and debugging</li><li>3+ years of experience developing web applications</li><li>1+ years of experience developing telecommunications solutions</li><li>Comfortable with Agile methodologies for delivering iterative solutions</li><li>Comfortable with modern practices including trunk based and test-driven development, and software test automation</li></ul>
+
+<br />]]></en>
+    </requirements>
+  </translations>
+</job>
 </jobs>
