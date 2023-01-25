@@ -24,8 +24,6 @@ On top of all that, I am also co-organizing the
 
 This blog was mainly created so that I can document some of the things I build, try out or read about. 
 
-You can find me on [Twitter](https://twitter.com/dpaxinos) or email me directly at dpaxinos[at]apptivasoftware.com
-
 <!--
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
