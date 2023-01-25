@@ -1,6 +1,7 @@
 ---
 title: How I increased my WordPress site’s performance from 31 to 92 in less than 2 hours
 tags: seo wordpress optimization
+description: I admit it; I am completely new to SEO and web page optimization. SEO and SEM (Search Engine Marketing) are valuable skills for every (wannabe) solopreneur/enterpreneur. As an engineer, I tend only to build and… keep building. The problem is that building a product is nice but not enough if no one knows about it. This is where SEO comes into play.
 ---
 
 
