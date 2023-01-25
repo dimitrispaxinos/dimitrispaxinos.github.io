@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How I increased my WordPress site’s performance from 31 to 92 in less than 2 hours
 tags: seo wordpress optimization
 description: A post about optimizing a website's performance
